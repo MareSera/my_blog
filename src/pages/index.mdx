@@ -1,0 +1,85 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import Collapse from "../components/blog/collapse.astro";
+import Diff from "../components/blog/diff.astro";
+import Error from "../components/blog/error.astro";
+import Info from "../components/blog/info.astro";
+import Kbd from "../components/blog/kbd.astro";
+import Success from "../components/blog/success.astro";
+import Warning from "../components/blog/warning.astro";
+import TimeLine from "../components/page/TimeLine.astro";
+import LinkCard from "../components/page/LinkCard.astro";
+
+<BaseLayout PageID="home">
+  <BaseCard title="home">
+    <div class="flex">
+      <div class="p-6">
+          # hi~ 你好 👋
+
+          这是一个高中生的小站点！
+
+          在努力进步！勤奋学习！
+      </div>
+    </div>
+
+  </BaseCard>
+
+  <BaseCard title="home" image="">
+    # 🏠 Home
+
+    ---
+
+    展现我的奇思妙想！分享我的生活！
+
+    中考结束啦~ 🍎可以安心写网站啦~
+
+    这里既是我发挥奇思妙想的灵感栈，也是我温馨的小小家园。
+
+    ---
+
+    ### 推荐！
+
+    <div class="grid grid-cols-1 gap-4">
+    <LinkCard
+        title="本站公告！"
+        desc="入站须知！一定要来看看~"
+        badge=""
+        url="https://blog.maresera.top/blog/%E7%BD%AE%E9%A1%B6%E6%9C%AC%E7%AB%99%E5%85%AC%E5%91%8A"
+      />
+
+   </div>
+
+
+    ---
+
+    ### Content
+
+  <div class="grid grid-cols-2 gap-4">
+    <LinkCard
+        title="博客"
+        desc="我的奇思妙想"
+        badge=""
+        url="https://blog.maresera.top/blog"
+      />
+    <LinkCard
+        title="关于"
+        desc="关于我/本站"
+        badge=""
+        url="https://blog.maresera.top/about"
+      />
+      <LinkCard
+        title="项目"
+        desc="我天马行空的实现"
+        badge=""
+        url="https://blog.maresera.top/project"
+      />
+      <LinkCard
+        title="友链"
+        desc="那些人，那些事"
+        badge=""
+        url="https://blog.maresera.top/friend"
+      />
+  </div>
+
+      </BaseCard>
+</BaseLayout>

@@ -1,0 +1,53 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import Collapse from "../components/blog/collapse.astro";
+import Diff from "../components/blog/diff.astro";
+import Error from "../components/blog/error.astro";
+import Info from "../components/blog/info.astro";
+import Kbd from "../components/blog/kbd.astro";
+import Success from "../components/blog/success.astro";
+import Warning from "../components/blog/warning.astro";
+import TimeLine from "../components/page/TimeLine.astro";
+import LinkCard from "../components/page/LinkCard.astro";
+
+<BaseLayout PageID="about">
+  <BaseCard title="about">
+# About Me
+
+---
+
+
+我只是一个普普通通的高中生！但是对编程产生了兴趣！
+
+## TimeLine
+
+    <ul class="timeline timeline-vertical">
+      <li>
+        <TimeLine time="2016.9.1" left="true" check="true">
+          小学！**寒亭区实验小学**
+        </TimeLine>
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="2021.9.1" check="true">
+          中学！**潍坊市寒亭区实验中学**
+        </TimeLine>
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="2024.6.15" left="true" check="true">
+          中考！好耶！
+        </TimeLine>
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-neutral-content" />
+        <TimeLine time="WAITING"> 
+          人生还在进行...
+        </TimeLine>
+      </li>
+    </ul>
+  </BaseCard>
+</BaseLayout>
