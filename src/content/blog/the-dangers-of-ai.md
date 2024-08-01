@@ -1,12 +1,15 @@
 ---
-title: 'AI Could Be Extremely Dangerous—Whether It's Conscious or Not'
-description: 'ai'
+title: 'AI可能极其危险->无论它是否有意识'
+description: '人工智能'
 pubDate: 'Aug 01 2024'
 image: '/home.webp'
 tags:
-  - AI
-badge: AI
+  - 人工智能
+badge: 人工智能
 ---
+
+
+> 本文还未经过翻译，本文原链接转载自https://www.basedlabs.ai/articles/the-dangers-of-ai
 
 AI is improving so fast that we might soon lose control of it, posing huge risks to humanity
 

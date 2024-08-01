@@ -1,7 +1,7 @@
 ---
 title: '服务器公告'
 description: '服务器公告'
-pubDate: 'Jun 06 6666'
+pubDate: 'Jun 06 999'
 image: '/home.webp'
 tags:
   - 公告
